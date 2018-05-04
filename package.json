@@ -1,0 +1,27 @@
+{
+  "name": "JS-EntryTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "node -r ts-node/register ./task1/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalics/JS-EntryTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalics/JS-EntryTask/issues"
+  },
+  "homepage": "https://github.com/vitalics/JS-EntryTask#readme",
+  "dependencies": {
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3"
+  }
+}
