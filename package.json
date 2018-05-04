@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task1": "node -r ts-node/register ./task1/index.ts"
+    "task1": "node -r ts-node/register ./task1/index.ts",
+    "task2": "node -r ts-node/register ./task2/index.ts"
   },
   "repository": {
     "type": "git",
