@@ -8,11 +8,11 @@ const happines = {
   fives: 2
 };
 
-function sortedPropertyNames(obj: Object) {
+function sortedPropertyNames(obj: Object): string[] {
   const entries = Object.entries(obj);
   entries.sort((curr, next) => next['1'] - curr['1']);
-  const propertyNames = entries.map((value: [string, number], index: number) => value['0']);
-  return propertyNames;
+  const sortedNames = entries.map((value: [string, number], index: number) => value['0']);
+  return sortedNames;
 }
 
 const propertyNames = sortedPropertyNames(happines);

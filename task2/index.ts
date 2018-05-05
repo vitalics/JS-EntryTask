@@ -7,8 +7,8 @@ const currentHours = currentDay.getHours();
 const currentMinutes = currentDay.getMinutes();
 const currentSeconds = currentDay.getSeconds();
 const totalSeconds = currentHours * 3600 + currentMinutes * 60 + currentSeconds;
-console.log(totalSeconds);
+console.log('seconds passed from startedDay is', totalSeconds);
 
 // second variant
-const total: number = ~~((currentDay.getTime() - startDay.getTime()) / 1000);
-console.dir(total);
+const total: number = ~~((currentDay.getTime() - startDay.getTime()) / 1000); // 1000 - milliseconds
+console.log('seconds passed from started day is', total);
