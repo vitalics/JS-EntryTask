@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/vitalics/JS-EntryTask#readme",
   "dependencies": {
+    "reflect-metadata": "^0.1.12",
     "ts-node": "^6.0.2",
     "typescript": "^2.8.3"
   },
