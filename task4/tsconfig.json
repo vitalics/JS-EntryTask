@@ -6,19 +6,16 @@
         "experimentalDecorators": true,
         "baseUrl": "./spec",
         "paths": {
-            "@task/environment":[
+            "@task/environment": [
                 "../environment"
             ],
-            "@task/pages":[
+            "@task/pages": [
                 "../pages"
             ],
-            "@task/types":[
+            "@task/types": [
                 "../types"
             ],
-            "@task/componenets":[
-                "../componenets"
-            ],
-            "@task/decorats":[
+            "@task/decorators": [
                 "../utils/decorators"
             ]
         },
@@ -29,11 +26,11 @@
         ],
         "typeRoots": [
             "./node_modules/@types"
-          ],
-          "types": [
+        ],
+        "types": [
             "jasmine",
             "node"
-          ]
+        ]
     },
     "exclude": [
         "node_modules"

@@ -1,3 +1,4 @@
 export * from './abstract.page';
 export * from './home.page';
-export * from './page.decorator';
+export * from './mail.page';
+export * from './mail';

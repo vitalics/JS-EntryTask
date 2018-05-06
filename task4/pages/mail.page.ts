@@ -5,11 +5,11 @@ import { page, element } from '../utils/decorators';
 @page('https://mail.tut.by/')
 export class MailPage extends Page {
   @element(by.css('#Username'))
-  public userNameInput: WebElementPromise | undefined;
+  public readonly userNameInput!: WebElementPromise;
   @element(by.css('#Password'))
-  public passwordInput: WebElementPromise | undefined;
+  public readonly passwordInput!: WebElementPromise;
   @element(by.css('.loginButton'))
-  public submitButton: WebElementPromise | undefined;
+  public readonly submitButton!: WebElementPromise;
 
   constructor() {
     super();

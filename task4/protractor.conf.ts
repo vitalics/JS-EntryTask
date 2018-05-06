@@ -2,11 +2,17 @@
 const path = require('path');
 
 exports.config = {
-  specs: [ './spec/**/*.spec.ts' ],
+  specs: [
+    './spec/user1/login.spec.ts',
+    './spec/user1/writeMessageToUser2.spec.ts',
+    './spec/user1/logout.spec.ts',
+    './spec/user2/login.spec.ts',
+    './spec/user2/checkMessages.spec.ts',
+  ],
 
   capabilities: {
     browserName: 'chrome',
-    chromeOptions: { args: [ '--disable-popup-blocking', '--disable-translate' ] }
+    chromeOptions: { args: ['--disable-popup-blocking', '--disable-translate'] }
   },
   skipSourceMapSupport: true,
 
